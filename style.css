@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+*{
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.navbar{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(238, 178, 235);
+}
+#fb{
+    background-color: rgb(137, 191, 238);
+}
+#fb a{
+    color: rgb(26, 6, 10);
+}
+#yt{
+    background-color: rgb(240, 182, 129);
+}
+#yt a{
+    color: cornflowerblue;
+}
+#github{
+    background-color: rgb(223, 126, 243);
+}
+#github a{
+    color: rgb(87, 6, 83);
+}
+#tiktok{
+    background-color: rgb(168, 235, 174);
+}
+#tiktok a{
+    color: rgb(25, 149, 153);
+}
+#ig{
+    background-color: rgb(230, 117, 132);
+}
+#ig a{
+    color: darkcyan;
+}
+.links {
+    border: 1px solid black;
+    display: inline;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-transform: uppercase;
+   font-weight: 600;
+   opacity: 0.7;
+   transition: .4s;
+}
+.links:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: xx-large;
+    padding: 15px;
+    font-family: 'Pixelify Sans', cursive;
+
+}
+#linksgroup{
+    text-align: center;
+}
+.links a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url('images/nj.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 350px;
+    
+    
+}
+.bannertext{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+.bannertext h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 4em;
+}
+.bannertext h2 span{
+    color: rgb(241, 180, 213);
+}
+.bannertext p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: plum;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(236, 235, 233);
+    margin-top: 1em;
+}
